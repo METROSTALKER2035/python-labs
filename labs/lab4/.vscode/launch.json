@@ -1,0 +1,22 @@
+{
+    // Конфігурації налагодження debugpy для лабораторної роботи №4
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Запуск обробки векторів",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/vector_algorithms.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Запуск матричних операцій",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/matrix_operations.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

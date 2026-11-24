@@ -1,0 +1,22 @@
+{
+    // Конфігурації налагодження debugpy для лабораторної роботи №2
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: scalar_modeling.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scalar_modeling.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: register_bitmask.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/register_bitmask.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    // Конфігурація налагодження debugpy для лабораторної роботи №5
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Запуск аналізатора логів (ЛБ5)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/log_parser.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

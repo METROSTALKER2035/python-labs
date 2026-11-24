@@ -1,0 +1,29 @@
+# Журнал Linux Syslog (варіант 2). Формат:
+# Month Day HH:MM:SS Hostname Daemon[PID]: SEVERITY: Message
+Nov  2 23:58:10 srv-web01 systemd[1]: INFO: Started Daily apt download activities.
+Nov 23 00:03:12 srv-web01 sshd[2411]: ERR: Failed password for root from 203.0.113.9 port 51234 ssh2
+Nov 23 00:03:15 srv-web01 sshd[2411]: ERR: Failed password for root from 203.0.113.9 port 51236 ssh2
+Nov 23 00:04:01 srv-web01 cron[877]: INFO: (root) CMD (/usr/lib/sa/sa1 1 1)
+Nov 23 00:10:44 srv-db01 mysqld[1530]: ERR: Aborted connection 87 to db shop (Got timeout)
+Nov 23 00:11:02 srv-db01 mysqld[1530]: INFO: InnoDB: Buffer pool(s) load completed
+
+Nov 23 00:15:20 srv-web01 nginx[1204]: ERR: connect() failed (111) to upstream 10.0.0.12
+Nov 23 00:15:21 srv-web01 nginx[1204]: ERR: upstream timed out (110) 10.0.0.12 and 10.0.0.13
+Nov 23 00:20:00 srv-web01 sshd[2455]: INFO: Accepted publickey for deploy from 198.51.100.24
+Nov 23 00:31:09 srv-db01 smartd[611]: ERR: Device /dev/sda, 8 Currently unreadable sectors
+Nov 23 00:45:37 srv-web01 sshd[2480]: ERR: Invalid user admin from 203.0.113.9 port 51302
+# --- службові записи та пошкоджені рядки нижче ---
+Nov 23 01:02:11 srv-app01 systemd-logind[640]: INFO: New session 12 of user deploy.
+Nov 23 01:05:48 srv-app01 kubelet[2201]: ERR: Помилка отримання образу: image pull backoff
+Nov 23 01:07:30 srv-app01 kubelet[2201]: ERR: Back-off pulling image registry.local/app:2.1
+Nov 23 01:12:09 srv-db01 mysqld[1530]: ERR: Table shop/orders is marked as crashed
+Nov 23 01:20:55 srv-web01 cron[877]: INFO: (root) CMD (run-parts /etc/cron.hourly)
+Nov 23 01:31:40 srv-web01 sshd[2511]: ERR: Failed password for admin from 192.0.2.77 port 60311
+Nov 23 01:33:02 srv-app01 kubelet[2201]: INFO: Successfully pulled image registry.local/app:2.1
+Nov 23 01:36:20 srv-web01 sshd[2530]: ERR: Failed password for root from 999.10.10.10 port 22
+Nov 23 01:40:00 srv-web01 sshd: ERR: рядок без PID процесу
+Nov 23 01:41:10 srv-web01 cron[877]: WARN: невідомий рівень важливості
+Nov 31 01:50:00 srv-web01 cron[877]: INFO: такого дня в листопаді немає
+Nov 23 24:15:00 srv-web01 cron[877]: INFO: такої години не існує
+Nov 23 01:55:00 srv-web01 sshd[0]: ERR: PID дорівнює нулю
+Nov 23	01:37:45   srv-db01  mysqld[1530]:	ERR:  Lost connection to MySQL server   
