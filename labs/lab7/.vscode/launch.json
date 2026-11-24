@@ -1,0 +1,22 @@
+{
+    // Конфігурації налагодження debugpy для лабораторної роботи №7
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Функціональний конвеєр (ЛБ7)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/functional_pipeline.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Рекурсивні алгоритми (ЛБ7)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/recursive_algorithms.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

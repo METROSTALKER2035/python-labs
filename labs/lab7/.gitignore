@@ -1,0 +1,24 @@
+# --- Кеш байт-коду Python ---
+__pycache__/
+*.pyc
+*$py.class
+
+# --- Віртуальні середовища та Miniconda ---
+.env
+.venv
+env/
+venv/
+ENV/
+miniconda3/
+
+# --- Файли редакторів та ОС ---
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Контрольні точки Jupyter ---
+.ipynb_checkpoints/
+
+# --- Налаштування VS Code: ігноруємо все, крім launch.json ---
+.vscode/*
+!.vscode/launch.json

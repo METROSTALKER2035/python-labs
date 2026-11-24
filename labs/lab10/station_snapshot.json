@@ -1,0 +1,26 @@
+{
+    "station_metadata": {
+        "facility_name": "Data Center Hall A, rack monitoring",
+        "snapshot_generated_at": "2026-11-24 22:01:43",
+        "pipeline_version": "1.0.0"
+    },
+    "server_telemetry_summary": {
+        "total_read_rows": 10,
+        "invalid_rows_skipped": 1,
+        "normal_rows_skipped": 5,
+        "overloaded_rows_saved": 4,
+        "cpu_load_threshold_pct": 80.0,
+        "average_free_ram_gb": 5.425,
+        "peak_cpu_load_pct": 96.8
+    },
+    "node_firmware_audit": {
+        "magic_signature_hex": "0x4E4F4445",
+        "magic_signature_ascii": "NODE",
+        "firmware_version": "v1.4",
+        "total_image_size_bytes": 14,
+        "payload_offset_bytes": 6,
+        "payload_size_bytes": 8,
+        "payload_hex": "10 20 30 40 50 60 70 80",
+        "is_signature_valid": true
+    }
+}

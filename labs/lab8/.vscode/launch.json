@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Запуск CLI-утиліти з аргументами (ЛБ8)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/cli_main.py",
+            "args": [
+                "--path", "${workspaceFolder}/test_sandbox",
+                "--dry-run"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
