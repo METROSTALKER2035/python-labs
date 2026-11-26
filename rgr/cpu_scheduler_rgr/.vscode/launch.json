@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "РГР: FIFO + Round Robin (демо)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--input", "data/tasks_demo.txt", "--algo", "both", "--quantum", "2", "--gantt"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "РГР: аварійний ввід (tasks_bad.txt)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--input", "data/tasks_bad.txt"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
